@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg-dark2{
+    background-color: black;
+}
+.point{
+    cursor: pointer;
+}
+.rgb{
+    animation: mover 7s infinite linear;
+    z-index: -2;
+    position: fixed;
+    height: 300vh;
+    width: 100%;
+}
+.gradient{
+    background: rgb(255,0,1);
+    background: -moz-linear-gradient(0deg, rgba(255,0,1,1) 0%, rgba(255,252,0,1) 24%, rgba(0,255,7,1) 52%, rgba(0,26,255,1) 78%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(255,0,1,1) 0%, rgba(255,252,0,1) 24%, rgba(0,255,7,1) 52%, rgba(0,26,255,1) 78%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(255,0,1,1) 0%, rgba(255,252,0,1) 24%, rgba(0,255,7,1) 52%, rgba(0,26,255,1) 78%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0001",endColorstr="#ffffff",GradientType=1);
+}
+.gradient2{
+    background: rgb(168,168,168);
+    background: -moz-linear-gradient(333deg, rgba(168,168,168,1) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(333deg, rgba(168,168,168,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(333deg, rgba(168,168,168,1) 0%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a8a8a8",endColorstr="#ffffff",GradientType=1);
+}
+.hidden{
+    display: none;
+}
+@keyframes mover{
+    0%{
+        transform: translateY(-400vh);
+    }100%{
+        transform: translateY(100vh);
+    }
+}
+.fondo{
+    z-index: -1;
+    height:100vh;
+    position: fixed;
+}
+.card{
+    min-width: 220px;;
+}
+.rainbow {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+    font-family: monospace;
+    letter-spacing: 5px;
+}
+.rainbow_text_animated {
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+.glow:hover{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.904);
+    box-shadow: 1px -1px 5px 0px rgba(186,202,235,0.75);
+    -webkit-box-shadow: 1px -1px 5px 0px rgba(186,202,235,0.75);
+    -moz-box-shadow: 1px -1px 5px 0px rgba(186,202,235,0.75);
+}

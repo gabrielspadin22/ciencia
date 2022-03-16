@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/react.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ciencia</title>
+</head>
+<body>
+    <div class="rgb gradient">.</div>
+    <img src="assets/fondo.png" class="fondo" width="100%" alt="bg">
+    <header class="container-fluid text-center text-light border-primary border-bottom">
+        <div class="container">
+            <div id="shadowBox">
+                <h3 class="rainbow rainbow_text_animated fs-1 p-5 fw-bold">CIENCIA</h3>
+                <small class="text-secondary">Pequeños datos</small>
+            </div>
+        </div>
+    </header>
+    <div class="card-group p-2 py-5">
+        <div class="card m-2 bg-transparent border border-white">
+        <img id="img1" src="assets/mo.jpg" class="card-img-top point" alt="Materia Oscura">
+            <div class="card-body bg-dark2 text-light">
+                <p class="card-text text-center"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                    <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                    </svg><small id="ndv1"></small></p>
+                <h5 class="card-title">Materia Oscura</h5>
+                <p class="card-text">En astrofísica y cosmología física, se denomina materia oscura a un tipo de materia que se estima corresponde aproximadamente al 80% de la materia del universo, y que no es energía oscura, materia bariónica (materia ordinaria) ni neutrinos.</p>             
+        </div>
+        </div>
+        <div class="card m-2 bg-transparent border border-white">
+            <button type="button" class="border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><img id="img2" src="assets/bh.jpg" class="card-img-top point" alt="Bosón de Higgs"></button>
+            <div class="card-body bg-dark2 text-light">
+                <h5 class="card-title">Bosón de Higgs</h5>
+                <p class="card-text">El bosón de Higgs o partícula de Higgs es una partícula fundamental propuesta en el modelo estándar de física de partículas.</p>
+                <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                </svg><small id="ndv2"></small></p>
+            </div>
+        </div>
+        <div class="card m-2 bg-transparent border border-white">
+        <img id="img3" src="assets/tc.png" class="card-img-top bg-light point" alt="Teoría de cuerdas">
+            <div class="card-body bg-dark2 text-light">
+                <h5 class="card-title">Teoría de cuerdas</h5>
+                <p class="card-text">Las teorías de cuerdas son una serie de hipótesis científicas y modelos fundamentales de física teórica que asumen que las partículas subatómicas, aparentemente puntuales, son en realidad «estados vibracionales» de un objeto extendido más básico llamado «cuerda» o «filamento».</p>
+                <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                </svg><small id="ndv3"></small></p>
+            </div>
+        </div>
+        <div class="card m-2 bg-transparent border border-white">
+            <button type="button" class="border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#staticBackdrop1"><img id="img4" src="assets/neon.jpg" class="card-img-top point" alt="Neon"></button>
+            <div class="card-body bg-dark2 text-light">
+                <h5 class="card-title">Neón</h5>
+                <p class="card-text">El neón es un elemento químico de número atómico 10 y símbolo Ne. Es un gas noble, incoloro, prácticamente inerte, presente en trazas en el aire, pero muy abundante en el universo, que proporciona un tono rojizo característico a la luz de las lámparas fluorescentes en las que se emplea.</p>
+                <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                </svg><small id="ndv4"></small></p>
+            </div>
+        </div>
+        <div class="card m-2 bg-transparent border border-white">
+            <img id="img5" src="assets/pl.jpg" class="card-img-top point" alt="Plasma">
+            <div class="card-body bg-dark2 text-light">
+                <h5 class="card-title">Plasma (estado de la materia)</h5>
+                <p class="card-text">En física y química, se denomina plasma al cuarto estado de agregación de la materia, un estado fluido similar al estado gaseoso pero en el que determinada proporción de sus partículas están cargadas eléctricamente (ionizadas) y no poseen equilibrio electromagnético, por eso son buenos conductores eléctricos y sus partículas responden fuertemente a las interacciones electromagnéticas de largo alcance.</p>
+                <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                </svg><small id="ndv5"></small></p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-center mb-5">
+        <div class="form-floating m-5 text-center mb-2" id="texta">
+            <textarea class="form-control bg-secondary bg-opacity-10 text-light text-center" style="height: 100px" id="floatingTextarea"></textarea>           
+        </div>
+        <button class="glow border-0" id="ct">Cargar Texto</button>
+    </div>  
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" >
+                    <h5 class="modal-title" id="staticBackdropLabel">Bosón de Higgs</h5>
+                    <button type="button" class="btn-close text-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body bg-transparent">
+                    <img src="assets/bh.jpg" class="card-img-top" alt="Bosón de Higgs">
+                </div>        
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" >
+                    <h5 class="modal-title" id="staticBackdropLabel1">Neon</h5>
+                    <button type="button" class="btn-close text-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body bg-transparent">
+                    <img src="assets/neon.jpg" class="card-img-top" alt="Neon">
+                </div>        
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="text-center">
+            <p>Gabriel Padin 2022</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
